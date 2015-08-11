@@ -16,6 +16,7 @@ class PoolSample  {
                 "enter password 5 failed atempts will exit aplication");
 
         int result = pW.compareToIgnoreCase(s);
+        
         int j = 1;
         while (result != 0) {
 

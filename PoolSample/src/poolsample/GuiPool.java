@@ -60,6 +60,7 @@ public class GuiPool extends JFrame {
             return false;
         }
         return true;
+        
     }
     
     public GuiPool() {
@@ -401,7 +402,7 @@ public class GuiPool extends JFrame {
             }
         });
         produceQuote.addActionListener(new ActionListener() {
-            ///////////// THE ACTION OF PULLING ALL DATA AND PROCUCE QUOTE
+            ///////////// THE ACTION OF PULLING ALL DATA AND PROCUCE QUOTE.
             public void actionPerformed(ActionEvent event) {
 
                 if (appName.getText().equals("")) {
